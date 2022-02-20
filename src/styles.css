@@ -1,5 +1,6 @@
 :root {
-  --brand-color: #272142;
+  --text-color: #272142;
+  --main-color: #495371;
   --background-color: #e8f6ef;
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
@@ -25,9 +26,15 @@ h1 {
   line-height: 128px;
 }
 
+h2 {
+  font-size: 64px;
+  line-height: 85px;
+}
+
 p {
   font-weight: normal;
   color: var(--brand-color);
+  font-size: 16px;
 }
 
 .hero {
@@ -47,7 +54,7 @@ p {
   font-size: 26px;
 }
 .btn-main {
-  background: #4c4c6d;
+  background: var(--main-color);
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -59,6 +66,56 @@ p {
 
 .btn-main:hover {
   background-color: #a7bbc7;
-  color: var(--brand-color);
+  color: var(--main-color);
   cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 50px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: #a7bbc7;
+  color: var(--text-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.projects-section-title p {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 80px 0;
+  padding: 20px, 10px;
+}
+
+.project-description {
+  margin-top: 70px;
+}
+
+/* /
+## Small screens ## 
+ */
+
+@media (max-width: 900px) {
+  .project-description {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+
+  h2 {
+    font-size: 54px;
+    line-height: 64px;
+  }
 }
