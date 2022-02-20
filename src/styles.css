@@ -99,6 +99,18 @@ p {
   margin-top: 70px;
 }
 
+.about-me-section {
+  margin: 160px 0px;
+}
+
+.about-me-details {
+  padding: 10px;
+}
+.about-me-role {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 /* /
 ## Small screens ## 
  */
