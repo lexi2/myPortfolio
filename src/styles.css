@@ -133,6 +133,42 @@ p {
   font-weight: bold;
 }
 
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: #495371;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
 /* /
 ## Small screens ## 
  */
