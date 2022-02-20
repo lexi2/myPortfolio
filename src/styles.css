@@ -118,6 +118,13 @@ p {
   margin: 10px 0;
 }
 
+.contact-details p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
 .about-me-details {
   padding: 10px;
 }
